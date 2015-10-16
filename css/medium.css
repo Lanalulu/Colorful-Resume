@@ -1,4 +1,4 @@
-﻿@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px) {
 html {
 	background-color:Thistle;
 }
@@ -169,8 +169,137 @@ body {
 	opacity:0.8;
 }
 
-.portfolio {
+#portfolio_bar {
+	width: 100%;
+	height: 510px;
+	background-color: rgb(255, 25, 117);
+	font-family:Georgia, serif;
+	font-weight: bold;
 	text-align: center;
-	display: none;
+	text-shadow: 0 2px 2px black;
+	color: #FFFFFF;
+	font-size: 60px;
+	box-shadow: 2px 2px 2px 2px #191919;
+	position: relative;
+	margin-top: 25%;
 }
+
+.portfolio_text {
+	background-color: rgb(61, 37, 61);
+	left: 50%;
+	position: relative;
+	width: 400px;
+	margin-left: -200px;
+	box-shadow: 2px 2px 2px 2px #191919;
+}
+
+.pic {
+	width: 100%;
+	height: 190px;
+	display: block;
+}
+
+table {
+	margin-top: 5%;
+}
+
+.git {
+	vertical-align: middle;
+}
+
+#contact_bar {
+	width: 100%;
+	height: 517px;
+	background-color:#00B8E6;
+	font-family:Georgia, serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 2px 2px black;
+	color: #FFFFFF;
+	font-size: 60px;
+	box-shadow: 2px 2px 2px 2px #191919;
+	position: relative;
+	margin-top: 25%;
+}
+
+.contact_text {
+	background-color: #E68A00;
+	position: relative;
+	width: 400px;
+	left: 50%;
+	margin-left: -200px;
+	box-shadow: 2px 2px 2px 2px #191919;
+}
+
+form {
+	font-size: 30px;
+	margin-top: 5%;
+}
+
+.home_button {
+	background-color: rgb(51, 51, 255);
+	font-family:Georgia, serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 2px 2px black;
+	color: #FFFFFF;
+	font-size: 18px;
+	box-shadow: 2px 2px 2px 2px #191919;
+	position: absolute;
+	left: 0;
+	height: 70px;
+	width: 70px;
+	border-bottom-right-radius: 100%;
+	line-height: 70px;
+}
+
+.home_button:hover, .portfolio_button:hover, .contact_button:hover {
+	background-color:yellow;
+	opacity:0.8;
+}
+
+.text {
+	transform: rotate(-40deg);
+}
+
+.contact_button {
+	background-color: #00B8E6;
+	font-family:Georgia, serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 2px 2px black;
+	color: #FFFFFF;
+	font-size: 18px;
+	box-shadow: 2px 2px 2px 2px #191919;
+	position: absolute;
+	right: 0;
+	height: 75px;
+	width: 75px;
+	border-bottom-left-radius: 100%;
+	line-height: 75px;
+}
+
+.text2 {
+	transform: rotate(40deg);
+}
+
+.portfolio_button {
+	background-color: rgb(255, 25, 117);
+	font-family:Georgia, serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0 2px 2px black;
+	color: #FFFFFF;
+	font-size: 18px;
+	box-shadow: 2px 2px 2px 2px #191919;
+	position: absolute;
+	right: 0;
+	height: 80px;
+	width: 80px;
+	border-bottom-left-radius: 100%;
+	line-height: 80px;
+}
+
+.text3 {
+	transform: rotate(40deg);
 }
