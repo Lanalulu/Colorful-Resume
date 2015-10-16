@@ -1,6 +1,7 @@
-﻿@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1300px) {
 html {
 	background-color:Thistle;
+	overflow-x: hidden;
 }
 
 body {
@@ -252,6 +253,11 @@ form {
 	line-height: 70px;
 }
 
+.home_button:hover, .portfolio_button:hover, .contact_button:hover {
+	background-color:yellow;
+	opacity:0.8;
+}
+
 .text {
 	transform: rotate(-40deg);
 }
@@ -296,9 +302,4 @@ form {
 
 .text3 {
 	transform: rotate(40deg);
-}
-
-.home_button:hover, .portfolio_button:hover, .contact_button:hover {
-	background-color:yellow;
-	opacity:0.8;
 }
